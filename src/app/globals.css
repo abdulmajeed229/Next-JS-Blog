@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@keyframes Wow {
+
+   0%{
+    .cardMy{
+        border: 1 px solid  blue;
+    }
+   }
+   20%{
+    .cardMy{
+        border: 1 px solid  blue;
+    }
+   }
+   40%{
+    .cardMy{
+        border: 1 px solid  rgb(43, 43, 51);
+    }
+   }
+   60%{
+    .cardMy{
+        border: 1 px solid  rgb(88, 88, 180);
+    }
+   }
+   80%{
+    .cardMy{
+        border: 1 px solid  rgb(44, 44, 78);
+    }
+   }
+    
+}
