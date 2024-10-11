@@ -6,7 +6,7 @@ function Main(){
 
     
 
-    <div className="p-10 ">
+    <div className=" min-h-[100vh] p-10 ">
       <Card/>
 
     </div>

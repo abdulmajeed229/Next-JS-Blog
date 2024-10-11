@@ -3,6 +3,7 @@ import { getDocs } from "firebase/firestore";
 import { db } from "../Database/firebase.config"; 
 import { useState, useEffect } from "react";
 import { collection } from "firebase/firestore";
+import Link from "next/link";
 
 function Card() {
   const [data, setData] = useState([]); 
@@ -56,9 +57,13 @@ function Card() {
             {/* Display a truncated version of the 'born' content */}
             <p>{limitText(user.content, 25)}</p>
 
+
+<Link href={`/${user.id}`}>
+
             <button className="bg-[#4a90e2] h-[40px] w-[60%] text-white mt-[20px] rounded hover:bg-[#2c5aa0] transition-all">
               Read More
             </button>
+            </Link>
           </div>
         ))
       ) : (

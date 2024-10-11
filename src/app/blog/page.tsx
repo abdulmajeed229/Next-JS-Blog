@@ -1,7 +1,10 @@
+import Card from "../Components/Cards"
+
 function Blog() {
   return (
-    <div className="container">
-      <h1>Blog</h1>
+    <div className="min-h-[100vh] container p-10">
+     
+     <Card/>
     </div>
   )
 }
