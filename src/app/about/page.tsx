@@ -10,9 +10,7 @@ function About(){
          <h1 className="text-[30px] font-bold text-center">About us</h1>
 
 <br />
-
-            
-            
+  
          <p className="text-justify">
 Welcome to our website! We’re glad you’re here.
 
