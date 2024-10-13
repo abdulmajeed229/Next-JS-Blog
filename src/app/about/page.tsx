@@ -12,6 +12,7 @@ function About(){
 <br />
 
             
+            
          <p className="text-justify">
 Welcome to our website! We’re glad you’re here.
 
