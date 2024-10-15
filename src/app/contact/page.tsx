@@ -3,7 +3,6 @@ function Contact(){
     return(
 
 
-
         <div className="h-[100vh] w-full flex justify-center items-center p-4">
 
 
